@@ -5,9 +5,96 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color:black;
+  color:white;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.Layoutlist {
+    display: flex;
+    padding: 5px;
+    margin: 10px 5px;
+    overflow-x:scroll;
+}
+
+.Layout{
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    margin:15px 10px;
+    }
+
+.Layout:hover{
+   transform:scale(1.05)
+}
+
+.Layoutlist::-webkit-scrollbar {
+    display: none;
+}
+
+.section{
+    display:flex;
+    margin:0px 25px;
+}
+
+h4{
+    font-size:90%;
+}
+
+.netflix>img{
+    width:300px;
+    height:400px;
+}
+
+.Banner{
+
+    padding:20px 20px;
+    width:100%;
+    justify-content:center;
+}
+
+.Banner > div > button {
+margin: 20px 10px;
+background-color: #616161;
+padding:5px 15px;
+border-radius:5px;
+}
+.Banner > div > button:hover {
+background-color: #F5F5F5;
+}
+
+    .Banner > div {
+        width: 50%;
+        justify-content: flex-start;
+        text-align: left;
+        
+    }
+
+.Banner > div>p{
+width:40%;
+}
+
+.wrapper {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1;
+    background-color: black;
+}
+nav {
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 10px;
+}
+
+nav>img{
+    margin:10px;
+}
+
+
+ 
