@@ -26,7 +26,7 @@ function App() {
           <h2 className='section'>Animation Movies</h2>
           <Layoutlist category={request.fetchAnimation} />
           <h2 className='section'>Family Movies</h2>
-          <Layoutlist category={request.fetchRomance} />
+          <Layoutlist category={request.fetchFamily} />
     </div>
   );
 }
